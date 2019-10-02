@@ -1,11 +1,13 @@
 .App {
-  text-align: center;
+   background: white;
 }
 
+.FuneralPlan{
+  height: 800px;
+}
 .App-logo {
   height: 40vmin;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
