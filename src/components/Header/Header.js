@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Background from '../../assets/b2.jpg';
-import Navigation from '../Navigation/NavigationItems/NavigationItems';
 import './Header.css';
 
 
@@ -18,7 +17,7 @@ export default class Header extends Component{
    if(window.innerWidth < 768) {
        this.setState({imageWidth: "100%", imageHeight: 200})
      } else {
-       this.setState({imageWidth: "100%", imageHeight: '90vh'})
+       this.setState({imageWidth: "100%", imageHeight: '80vh'})
      }  
    }
     render(){
@@ -33,15 +32,10 @@ export default class Header extends Component{
        return (
          <div className="Header">
            <div style={sectionStyle}>
-             <div className="nav">
-                 <Navigation />
-             </div>
              <div className="HeaderText">
-               <h1>Compare and buy a funeral plan</h1>
+               <h1>Flexible funeral plans from Strastone And Bently</h1>
                <p>
-                 Everyone has different needs - and we provide a range of
-                 funeral plans designed to meet your requirements at a price you
-                 can efford.
+                 The safe, simple way to help peace of mind, for your familly.
                </p>
                  <a href="#section2">Find more</a>
              </div>

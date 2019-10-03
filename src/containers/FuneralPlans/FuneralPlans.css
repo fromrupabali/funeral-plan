@@ -1,14 +1,22 @@
 .Funeral{
     width: 70%;
-    height: 1000px;
     margin-left: 15%;
-    margin-top: 170px;
+    margin-top: 100px;
 }
 .IntroText{
     width: 50%;
     text-align: center;
     margin-left: 25%;
     margin-top: 15px;
+}
+.IntroText h1{
+  font-size: 50px;
+  color: rgb(80, 74, 74);
+}
+.IntroText p{
+  color: rgb(80, 74, 74);
+  padding: 5px;
+  font-size: 17px;
 }
 .FuneralPlans{
   padding: 10px;
@@ -27,8 +35,9 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
+  background: #7B68EE;
   color: white;
+  font-size: 15px;
 }
 .planTable tr:nth-child(even){background-color: #f2f2f2;}
 .FuneralPlans table, tr{
@@ -37,4 +46,11 @@
 }
 .planTable tr{
     padding: 0 10px;
+}
+
+.Catagory a{
+  padding: 10px 20px;
+  border: 2px solid green;
+  margin: 2px;
+
 }

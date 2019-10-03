@@ -1,0 +1,86 @@
+.plan{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.FeatureImage img{
+    width: 70%;
+    height:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+.planAbout h1{
+    margin: 20px 10px;
+    font-size: 40px;
+}
+.planDescription {
+    width: 100%;
+    height: 200px;
+}
+.DescriptionTxt{
+    width: 70%;
+    float: left;
+}
+.DescriptionTxt p{
+    margin: 20px 10px;
+    font-size:17px;
+    color: #0A4A7A;
+    line-height: 30px;
+}
+.planPayment{
+   width: 20%;
+   height: 100%;
+   background: #0A4A7A;
+   float: right;
+   text-align: center;
+   padding-top: 35px; 
+   border-radius: 5px; 
+}
+.planPayment h1, h3, p{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.planPayment button{
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border: none;
+    font: inherit;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #F57C01; 
+    color: white;
+}
+.planPayment button:hover{
+    background: orangered;
+}
+
+.Opnt {
+   margin-top: 70px;
+   width: 100%;
+   height: 400px;
+}
+.Opnt h3{
+    color: rgb(94, 86, 86);
+    margin: 10px 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.Include{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.NotInclude{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.Requestplan{
+    width: 100%;
+    height: 150px;
+    background: green;
+}

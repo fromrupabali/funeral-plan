@@ -1,0 +1,18 @@
+.Filter{
+    width: 300px;
+    height: 80px;
+    margin: 10px 0;
+}
+.Filter h4{
+  padding: 10px 0;
+  margin: 5px 0;
+}
+
+.Filter a{
+    padding: 8px 20px;
+    background: #0288D1;
+    margin-right: 7px;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}

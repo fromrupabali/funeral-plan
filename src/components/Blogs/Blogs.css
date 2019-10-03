@@ -1,0 +1,19 @@
+.Blogs{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-left: 17%;
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+
+@media(max-width: 600px){
+    .Blogs{
+        width: 100%;
+        margin-left: 0;
+    }
+}

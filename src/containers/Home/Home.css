@@ -1,0 +1,23 @@
+.PlanSection{
+    width: 100%;
+    height: 500px;
+    background: #EAE1B6;
+}
+
+.WhyChoose{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 50px;
+    
+}
+.heading{
+    margin: 20px;
+    font-size: 30px;
+    color: #1A537D;
+}
+
+.BlogContainer{
+    width: 100%;
+    height: 550px;
+    background: #FBFBFB;
+}
