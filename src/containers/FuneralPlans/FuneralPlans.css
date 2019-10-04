@@ -21,6 +21,13 @@
 .FuneralPlans{
   padding: 10px;
 }
+.CompanyName{
+  color: white;
+  font-weight: bold;
+  background: rgb(0, 183, 255);
+  height: 60px;
+}
+
 
 .planTable {
   border-collapse: collapse;
@@ -31,6 +38,10 @@
   padding: 8px;
   text-align: center;
 }
+.planTable td{
+  font-size: 15px;
+  padding: 5px;
+}
 .planTable th{
   padding-top: 12px;
   padding-bottom: 12px;
@@ -39,7 +50,7 @@
   color: white;
   font-size: 15px;
 }
-.planTable tr:nth-child(even){background-color: #f2f2f2;}
+.planTable tr:nth-child(even){background-color: #f1eaea;}
 .FuneralPlans table, tr{
   border: 1px solid #eee;
   text-align: left;

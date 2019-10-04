@@ -1,6 +1,6 @@
 .toolbar{
     height: 80px;
-    width:83%;
+    width:77%;
     top: 0;
     left: 0;
     color: black;
@@ -9,7 +9,7 @@
     align-items: center;
     box-sizing: border-box;
     z-index: 90;
-    margin-left: 10%;
+    margin-left: 11%;
    
 }
 

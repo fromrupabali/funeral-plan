@@ -1,3 +1,8 @@
 .includeElement{
     margin: 10px 0;
 }
+.ListIcon{
+    color: green;
+    font-size: 20px;
+    margin-right: 10px;
+}

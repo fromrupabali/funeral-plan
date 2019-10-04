@@ -46,7 +46,7 @@ export default class funeralDetails extends Component {
                  };
                  render() {
                    const services = this.state.services.map(service => {
-                     return <Funeral h1={service.h1} p={service.p} />;
+                     return <Funeral key={service.id} h1={service.h1} p={service.p} />;
                    });
                    return <div className="FuneralDetails">{services}</div>;
                  }

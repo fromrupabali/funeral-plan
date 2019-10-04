@@ -47,25 +47,24 @@ export default class PlanDetails extends Component {
                              <h3>FROM</h3>
                              <h1>£{this.state.planDetails.payPerMonth}</h1>
                              <h3>PER MONTH</h3>
-                             <button>Request this plan</button>
+                             <button onClick={this.props.open}>Request this plan</button>
                            </div>
                          </div>
                        </div>
                        <div className="Opnt">
                          <div className="Include">
-                           <h3>What is included?</h3>
+                           <h3>What is included ?</h3>
                            <Includes
                              includes={this.state.planDetails.includes}
                            />
                          </div>
                          <div className="NotInclude">
-                           <h3>What is not included?</h3>
+                           <h3>What is not included ?</h3>
                            <NotIncludes
                              includes={this.state.planDetails.notIncludes}
                            />
                          </div>
                        </div>
-                       <h1>Hi</h1>
                      </div>
                    );
                  }

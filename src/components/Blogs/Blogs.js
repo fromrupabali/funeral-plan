@@ -5,7 +5,7 @@ import './Blogs.css';
 
 const blogs = (props) =>{
     const blogs = props.blogs.map(blog => {
-        return <Blog img={blog.img} title={blog.title} date={blog.date}/>
+        return <Blog key={blog.id} img={blog.img} title={blog.title} date={blog.date}/>
     });
     return(
         <div className="Blogs">

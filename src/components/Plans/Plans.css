@@ -19,7 +19,7 @@
 }
 
 .singlePlan{
-    height: 280px;
+    height: 290px;
     width: 23%;
     box-sizing: border-box;
     cursor: pointer;
@@ -54,7 +54,7 @@
     color: #414042;
 }
 .PlanPrice{
-    height: 100px;
+    height: 80px;
     width: 100%;
     
 }
@@ -73,14 +73,28 @@
     font-size: 13px;
     border: none;
     border-radius: 2px;
-    background: #1C94D6;
-    color: white;
+    color: green;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    font-weight: bold;
 }
 .PlanButton a:hover{
-    background: rgb(5, 128, 189);
+     color: rgb(69, 16, 214);
+}
+.PlanButton button{
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border: none;
+    color: white;
+    background: #8154FF;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.PlanButton button:hover{
+     background: rgb(100, 59, 212);
 }
 
 @media(max-width:600px){

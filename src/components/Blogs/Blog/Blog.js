@@ -10,12 +10,7 @@ const blog = props => (
       <img src={props.img} alt="blog" />
       <div className="BlogDetails">
         <h2>{props.title}</h2>
-        <p>
-          <span className="DateIcon">
-            <i className="fas fa-calendar-day"></i>
-          </span>
-          {props.date}
-        </p>
+        <Link to="/blog-details">Read more</Link>
       </div>
     </div>
   </Link>

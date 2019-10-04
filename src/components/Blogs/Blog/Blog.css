@@ -1,45 +1,47 @@
 .Blog{
-    height: 410px;
+    height: 380px;
     width: 31%;
     box-sizing: border-box;
     cursor: pointer;
     margin:12px 0px;
     color:rgb(41, 48, 59);
     text-decoration: none;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 5px rgb(233, 227, 227);
+    background: white;
 }
 .BlogDetails{
     width: 100%;
     height: 100px;
-    padding: 10px 0;
+    padding: 10px 5px;
 }
-.Blog:hover{
-    opacity: 0.7;
-}
+
 .Blog img{
     width: 100%;
-    height: 280px;
-    opacity: 0.9;
+    height: 250px;
+    opacity: 0.8;
     margin-bottom: 10px;
     border-radius: 2px;
 }
 
 .Blog h2{
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
     color: #292929;
     line-height: 27px;
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
-.DateIcon{
-    margin-right: 8px;
-}
 
-.Blog p{
-    margin: 8px 3px;
-    padding: 0;
-    color: #7575A1;
-    font-size: 15px;
+.Blog a{
+    padding: 15px 0;
+    font-weight: bold;
+    color: #8154FF;
+}
+.Blog a:hover{
+    color: orange;
 }
 
 @media(max-width: 600px){

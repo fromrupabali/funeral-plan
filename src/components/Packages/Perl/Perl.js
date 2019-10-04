@@ -1,8 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 
 const perl = () => (
   <table className="planTable" style={{ width: "100%" }}>
-    <tr>
+    <tr className="CompanyName">
       <th></th>
       <td>Golden Charter</td>
       <td>Safe Hands</td>
@@ -38,31 +41,91 @@ const perl = () => (
         Funeral procession to funeral location (fees and costs of a service at a
         separate location not included)
       </th>
-      <td>No</td>
-      <td>No</td>
-      <td>No</td>
-      <td>No</td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
     </tr>
     <tr>
       <th>One following Limousines</th>
       <td>Yes</td>
-      <td>No</td>
-      <td>No</td>
-      <td>Yes</td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckYes">
+          <FontAwesomeIcon icon={faCheckCircle} />
+        </span>
+      </td>
     </tr>
     <tr>
       <th>An Funeral hearses and bearers</th>
-      <td>No</td>
-      <td>No</td>
-      <td>No</td>
-      <td>No</td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
     </tr>
     <tr>
       <th>A list provided to the family of mourners who sent flowers</th>
-      <td>Yes</td>
-      <td>No</td>
-      <td>Yes</td>
-      <td>Yes</td>
+      <td>
+        <span className="CheckYes">
+          <FontAwesomeIcon icon={faCheckCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckNo">
+          <FontAwesomeIcon icon={faTimesCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckYes">
+          <FontAwesomeIcon icon={faCheckCircle} />
+        </span>
+      </td>
+      <td>
+        <span className="CheckYes">
+          <FontAwesomeIcon icon={faCheckCircle} />
+        </span>
+      </td>
     </tr>
   </table>
 );

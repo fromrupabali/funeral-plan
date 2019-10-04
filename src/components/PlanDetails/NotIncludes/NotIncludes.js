@@ -6,6 +6,6 @@ const notIncludes = props => {
   const notIncludes = props.includes.map(include => {
     return <Include include={include} />;
   });
-  return <ul>{notIncludes}</ul>;
+  return <ul style={{ listStyle: "none" }}>{notIncludes}</ul>;
 };
 export default notIncludes;

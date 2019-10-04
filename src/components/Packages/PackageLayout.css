@@ -16,3 +16,12 @@
     border-radius: 2px;
     text-decoration: none;
 }
+.Filter a:hover{
+   background: rgb(35, 123, 170);
+}
+.active{
+  color: green;
+}
+.FilterIcon{
+  color: #0288D1;
+}

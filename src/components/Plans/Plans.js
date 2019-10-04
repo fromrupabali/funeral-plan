@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import './Plans.css';
 
-const plans = () => (
+const plans = props => (
   <div className="Plans">
     <h1 className="PlanHeading">
       We have 5 comprehensive Funeral Plans to choose from...
@@ -20,6 +20,7 @@ const plans = () => (
         </div>
         <div className="PlanButton">
           <Link to="/plan-details">View plan details</Link>
+          <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
       <div className="singlePlan">
@@ -36,6 +37,7 @@ const plans = () => (
         </div>
         <div className="PlanButton">
           <Link to="/plan-details">View plan details</Link>
+          <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
       <div className="singlePlan">
@@ -51,6 +53,7 @@ const plans = () => (
         </div>
         <div className="PlanButton">
           <Link to="/plan-details">View plan details</Link>
+          <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
       <div className="singlePlan">
@@ -67,6 +70,7 @@ const plans = () => (
         </div>
         <div className="PlanButton">
           <Link to="/plan-details">View plan details</Link>
+          <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
     </div>
