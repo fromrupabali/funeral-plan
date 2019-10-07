@@ -8,16 +8,25 @@
     width: 75%;
     margin-left: 12%;
     margin-top: 50px;
-    
 }
-.heading{
-    margin: 20px;
-    font-size: 30px;
-    color: #1A537D;
-}
+
 
 .BlogContainer{
     width: 100%;
-    height: 500px;
     background: #EEEEEE;
+}
+.heading{
+    margin: 10px 20px;
+}
+@media(max-width:600px){
+    .PlanSection{
+      width: 100%;
+      height: auto;
+      background: #EAE1B6; 
+}
+.WhyChoose{
+    width: 100%;
+    margin: 0;
+}
+
 }

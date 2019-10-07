@@ -1,14 +1,12 @@
 .Blogs{
     width: 65%;
-    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
     margin-left: 17%;
     margin-top: 50px;
-    padding-top: 50px;
-    
+    padding: 50px 0;
 }
 
 @media(max-width: 600px){

@@ -20,10 +20,10 @@ export default class FuneralPlans extends Component{
           <BrowserRouter>
             <div className="Funeral">
               <PackageLayout>
-                <Route path="/compare-plan" exact component={Basic} />
-                <Route path="/compare-plan/standard" exact component={Standard} />
-                <Route path="/compare-plan/perl" exact component={Perl} />
-                <Route path="/compare-plan/diamond" exact component={Diamond} />
+                <Route path="/agent" exact component={Basic} />
+                <Route path="/agent/standard" exact component={Standard} />
+                <Route path="/agent/perl" exact component={Perl} />
+                <Route path="/agent/diamond" exact component={Diamond} />
               </PackageLayout>
             </div>
           </BrowserRouter>

@@ -5,7 +5,11 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './containers/Home/Home';
 import FuneralPlan from './containers/FuneralPlans/FuneralPlans';
-import PlanDetails from './components/PlanDetails/PlanDetails';
+import BasicPlan from './components/PlanDetails/Basic/Basic';
+import StandardPlan from "./components/PlanDetails/Standard/Standard";
+import PerlPlan from "./components/PlanDetails/Perl/Perl";
+import DiamondPlan from "./components/PlanDetails/Diamond/Diamond";
+import ComparePlan from './components/ComparePlans/ComparePlans';
 import Footer from './components/Footer/Footer';
 
 import img1 from "./assets/blog.jpg";
@@ -61,17 +65,33 @@ class App extends Component {
             />
             <Route
               clicked={this.ModalClose}
-              path="/compare-plan"
+              path="/agent"
               component={FuneralPlan}
             />
             <Route
-              path="/plan-details"
+              path="/plan-details/basic"
               exact
-              component={() => (
-                <PlanDetails blogs={this.state.blogs} open={this.ModalOpen} />
-              )}
+              component={() => <BasicPlan open={this.ModalOpen} />}
             />
-            <Route path={["/", "/plan-details"]} exact component={Footer} />
+            <Route
+              path="/plan-details/standard"
+              exact
+              component={() => <StandardPlan open={this.ModalOpen} />}
+            />
+            <Route
+              path="/plan-details/perl"
+              exact
+              component={() => <PerlPlan open={this.ModalOpen} />}
+            />
+            <Route
+              path="/plan-details/diamond"
+              exact
+              component={() => <DiamondPlan open={this.ModalOpen} />}
+            />
+            <Route 
+              path="/compare-plan" component={()=> <ComparePlan open={this.ModalOpen}/>}/>
+              
+            <Footer />
           </Layout>
         </div>
       </BrowserRouter>

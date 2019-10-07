@@ -38,9 +38,9 @@ export default class funeralDetails extends Component {
                      },
                      {
                        id: 6,
-                       h1: "Your Payments Are Protected",
+                       h1: "Free to choose your plan.",
                        p:
-                         "When you take out a plan, rest assured your payments are protected. Depending on how you wish to pay, plan holder funds are either paid into the Golden Charter Trust or to one of the UK’s leading life assurance policies."
+                         "You can choose your favourite and affordable plan because we have several plans based on different people."
                      }
                    ]
                  };

@@ -7,10 +7,12 @@ import './Include.css';
 const include = (props) => {
   return (
     <li className="includeElement">
-      <span className="ListIcon">
-        <FontAwesomeIcon icon={faAngleRight} />
-      </span>
-      {props.include}
+      <p>
+        <span className="ListIcon">
+          <FontAwesomeIcon icon={faAngleRight} />
+        </span>
+        {props.include}
+      </p>
     </li>
   );
 };

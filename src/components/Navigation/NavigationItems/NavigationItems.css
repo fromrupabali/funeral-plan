@@ -1,6 +1,6 @@
 .toolbar{
-    height: 80px;
-    width:77%;
+    height: 68px;
+    width:100%;
     top: 0;
     left: 0;
     color: black;
@@ -9,10 +9,20 @@
     align-items: center;
     box-sizing: border-box;
     z-index: 90;
-    margin-left: 11%;
+    position: fixed;
+    background: #1C94D6;
+    padding: 0 240px;
+}
+.Logo{
+   font-size: 25px;
+   cursor: pointer;
+   text-decoration: none;
    
 }
-
+.navigatio{
+   width: 100%;
+   background: red;
+}
 .navigation{
    height: 100%;
 }
@@ -35,3 +45,43 @@
   color: white;
   text-decoration: none;
 }
+.Link:hover{
+   color: rgb(66, 6, 230);
+}
+
+.dropbtn {
+  background-color: rgb(87, 175, 76);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1466c5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {background-color: rgb(22, 39, 189);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

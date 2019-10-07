@@ -15,7 +15,7 @@ export default class Header extends Component{
 
   setImageSize = () => {
    if(window.innerWidth < 768) {
-       this.setState({imageWidth: "100%", imageHeight: 200})
+       this.setState({imageWidth: "100%", imageHeight: 300})
      } else {
        this.setState({imageWidth: "100%", imageHeight: '80vh'})
      }  

@@ -18,3 +18,10 @@
     font-size: 17px;
     color: rgb(117, 114, 114);
 }
+
+@media(max-width: 600px){
+    .FuneralDetail{
+     width: 90%;
+     margin: 5px;
+  }
+}

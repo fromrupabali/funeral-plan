@@ -21,16 +21,16 @@ const layout = props => (
         </span>
         Filter by Catagory
       </h4>
-      <NavLink activeClassName="active" to="/compare-plan">
+      <NavLink activeClassName="active" to="/agent">
         Basic
       </NavLink>
-      <NavLink activeClassName="active" to="/compare-plan/standard">
+      <NavLink activeClassName="active" to="/agent/standard">
         Standard
       </NavLink>
-      <NavLink activeClassName="active" to="/compare-plan/perl">
+      <NavLink activeClassName="active" to="/agent/perl">
         Perl
       </NavLink>
-      <NavLink activeClassName="active" to="/compare-plan/diamond">
+      <NavLink activeClassName="active" to="/agent/diamond">
         Diamond
       </NavLink>
     </div>

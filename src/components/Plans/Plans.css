@@ -2,11 +2,12 @@
     padding: 50px 0;
     width: 75%;
     margin-left: 12%;
+    text-align: center;
 }
 .PlanHeading{
     margin: 20px 12px;
     color: #414042;
-
+    text-align: left;
 }
 
 .allPlans{
@@ -31,7 +32,7 @@
     text-align: center;
 }
 .singlePlan:hover{
-    box-shadow: 0px 2px 6px 5px rgb(235, 230, 230);
+    box-shadow: 0px 2px 8px 8px rgb(235, 230, 230);
  }
 
 .PlanIntro{
@@ -96,15 +97,38 @@
 .PlanButton button:hover{
      background: rgb(100, 59, 212);
 }
+.CompareDiv{
+    margin-top: 20px;
+}
+.CompareLink{
+    padding: 8px 20px;
+    border: 1px solid green;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 2px;
+    color: black;
+}
+.CompareLink:hover{
+    color: green;
+    border: 1px solid #643BD4;
+}
 
 @media(max-width:600px){
     .singlePlan{
-        width: 100%;
-        margin: 7px 0px;
+    height: 290px;
+    width: 90%;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 5px 0;
+    color:rgb(41, 48, 59);
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: white;
+    text-align: center;
     }
     .Plans{
     width: 100%;
     margin-top: 120px;
-    margin-left: 10%;
+    margin: 0;
 }
 }

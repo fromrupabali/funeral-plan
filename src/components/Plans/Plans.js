@@ -6,7 +6,7 @@ import './Plans.css';
 const plans = props => (
   <div className="Plans">
     <h1 className="PlanHeading">
-      We have 5 comprehensive Funeral Plans to choose from...
+      We have 4 comprehensive Funeral Plans to choose from...
     </h1>
     <div className="allPlans">
       <div className="singlePlan">
@@ -19,7 +19,7 @@ const plans = props => (
           <h1>£13.59</h1>
         </div>
         <div className="PlanButton">
-          <Link to="/plan-details">View plan details</Link>
+          <Link to="/plan-details/basic">View plan details</Link>
           <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
@@ -36,7 +36,7 @@ const plans = props => (
           <h1>£16.59</h1>
         </div>
         <div className="PlanButton">
-          <Link to="/plan-details">View plan details</Link>
+          <Link to="/plan-details/standard">View plan details</Link>
           <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
@@ -52,7 +52,7 @@ const plans = props => (
           <h1>£18.59</h1>
         </div>
         <div className="PlanButton">
-          <Link to="/plan-details">View plan details</Link>
+          <Link to="/plan-details/perl">View plan details</Link>
           <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
@@ -69,10 +69,15 @@ const plans = props => (
           <h1>£19.34</h1>
         </div>
         <div className="PlanButton">
-          <Link to="/plan-details">View plan details</Link>
+          <Link to="/plan-details/diamond">View plan details</Link>
           <button onClick={props.show}>Request this plan</button>
         </div>
       </div>
+    </div>
+    <div className="CompareDiv">
+      <Link className="CompareLink" to="/compare-plan">
+        COMPARE OUR PLANS
+      </Link>
     </div>
   </div>
 );

@@ -10,7 +10,7 @@ const blog = props => (
       <img src={props.img} alt="blog" />
       <div className="BlogDetails">
         <h2>{props.title}</h2>
-        <Link to="/blog-details">Read more</Link>
+        <Link to="#">Read more</Link>
       </div>
     </div>
   </Link>

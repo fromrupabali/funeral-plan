@@ -42,7 +42,7 @@ export default class RequestForm extends Component {
             <h2>Send us a message</h2>
             <form className="Form" onSubmit={this.handleSubmit}>
               <div className="FormSection">
-                <label>Your Name</label>
+                <label>Name</label>
                 <input
                   onChange={this.handleChange}
                   type="text"
@@ -51,7 +51,7 @@ export default class RequestForm extends Component {
                 />
               </div>
               <div className="FormSection">
-                <label>Your Email</label>
+                <label>Email</label>
                 <input
                   onChange={this.handleChange}
                   type="email"
@@ -60,7 +60,7 @@ export default class RequestForm extends Component {
                 />
               </div>
               <div className="FormSection">
-                <label>Your Plan</label>
+                <label>Plan</label>
                 <select onChange={this.handleChange} name="plan" required>
                   <option value="basic">Basic</option>
                   <option value="standars">Standard</option>
@@ -69,6 +69,15 @@ export default class RequestForm extends Component {
                 </select>
               </div>
               <div>
+                <div className="FormSection">
+                  <label>Phone no</label>
+                  <input
+                    onChange={this.handleChange}
+                    type="text"
+                    name="name"
+                    required
+                  />
+                </div>
                 <label>Your message</label>
                 <textarea
                   onChange={this.handleChange}
