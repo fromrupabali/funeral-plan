@@ -9,19 +9,19 @@ const NavigationItems = (props) =>{
   return (
     <div className="toolbar">
       <div>
-       <Link className="Logo" to="/" >Strastone&Bently</Link>
+       <Link className="Logo" to="/" >Fusion cover</Link>
       </div>
       <nav className="navigation">
         <ul className="navigationItems">
           <li className="navigationItem">
-            <a className="Link" href="/">
+            <Link className="Link" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="navigationItem">
-            <a className="Link" href="/about-us">
+            <Link className="Link" to="/about-us">
               About Us
-            </a>
+            </Link>
           </li>
           <li className="navigationItem">
             <div className="dropdown">

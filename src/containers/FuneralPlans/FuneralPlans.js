@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './FuneralPlans.css';
 import funerals from  '../../components/data/funeral';
 import PackageLayout from '../../components/Packages/PackageLayout';
-import { BrowserRouter, Route} from 'react-router-dom'
+import { HashRouter, Route} from 'react-router-dom'
 import Basic from '../../components/Packages/Basics/Basics';
 import Standard from "../../components/Packages/Standard/Standard";
 import Perl from "../../components/Packages/Perl/Perl";
@@ -17,7 +17,7 @@ export default class FuneralPlans extends Component{
     }
     render(){
         return (
-          <BrowserRouter>
+          <HashRouter>
             <div className="Funeral">
               <PackageLayout>
                 <Route path="/agent" exact component={Basic} />
@@ -26,7 +26,7 @@ export default class FuneralPlans extends Component{
                 <Route path="/agent/diamond" exact component={Diamond} />
               </PackageLayout>
             </div>
-          </BrowserRouter>
+          </HashRouter>
         );
     }
 };

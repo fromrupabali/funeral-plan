@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './containers/Home/Home';
 import FuneralPlan from './containers/FuneralPlans/FuneralPlans';
@@ -53,7 +53,7 @@ class App extends Component {
   };
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Layout show={this.state.show} clicked={this.ModalClose}>
             <Route
@@ -94,7 +94,7 @@ class App extends Component {
             <Footer />
           </Layout>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

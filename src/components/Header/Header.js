@@ -37,7 +37,7 @@ export default class Header extends Component{
                <p>
                  The safe, simple way to help peace of mind, for your familly.
                </p>
-                 <a href="#section2">Find more</a>
+                 <a href="#">Find more</a>
              </div>
            </div>
          </div>

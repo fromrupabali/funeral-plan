@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import './PackageLayout.css';
 
@@ -21,18 +21,18 @@ const layout = props => (
         </span>
         Filter by Catagory
       </h4>
-      <NavLink activeClassName="active" to="/agent">
+      <Link  to="/agent">
         Basic
-      </NavLink>
-      <NavLink activeClassName="active" to="/agent/standard">
+      </Link>
+      <Link  to="/agent/standard">
         Standard
-      </NavLink>
-      <NavLink activeClassName="active" to="/agent/perl">
+      </Link>
+      <Link  to="/agent/perl">
         Perl
-      </NavLink>
-      <NavLink activeClassName="active" to="/agent/diamond">
+      </Link>
+      <Link  to="/agent/diamond">
         Diamond
-      </NavLink>
+      </Link>
     </div>
     <main>{props.children}</main>
   </div>
